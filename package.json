@@ -1,0 +1,12 @@
+{
+  "name": "unitedstuts",
+  "version": "1.0.0",
+  "description": "network for stutterers (alpha)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Tevin Sharp",
+  "license": "ISC"
+}
