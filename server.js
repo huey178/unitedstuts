@@ -5,7 +5,7 @@ const app = express();
 
 //Connection to mongodb atlas
 connectDB();
-//Init middleware
+//Init middlewarers
 app.use(express.json({ extended: false }));
 
 //routes
