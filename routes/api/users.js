@@ -55,7 +55,6 @@ router.post(
       user.password = await bcrypt.hash(password, salt);
 
       await user.save();
-      res.send("User Registered");
 
       // return jsonwebtoken
 

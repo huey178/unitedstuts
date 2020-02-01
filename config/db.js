@@ -10,9 +10,9 @@ const connectDB = async () => {
       useCreateIndex: true
     });
     console.log("Mongo has been connected");
-  } catch {
-    process.exit(1); //Exits the process upon failure
+  } catch (err) {
     console.error(err.message);
+    process.exit(1); //Exits the process upon failure
   }
 };
 
