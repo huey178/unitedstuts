@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://Tevin:Cake30311@socialcluster-9d0fr.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecretisthatilovepie",
+  "githubClientId": "2e44768277f96e8f63f7",
+  "githubSecret": "38ab98762972503e8a34ba71b383ba358cb81d06"
+}

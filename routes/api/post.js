@@ -66,7 +66,7 @@ router.get("/:id", authen, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
     if (!post) {
-      res.status(404).json({ msg: "Post was not found" });
+      return res.status(404).json({ msg: "Post was not found" });
     }
     res.json(post);
   } catch (err) {
